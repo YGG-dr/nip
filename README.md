@@ -62,11 +62,11 @@ This separation keeps responsibilities clear:
 | models   | request / response schemas |
 | services | business logic             |
 | core     | configuration              |
+```
 
 ## Installation
 
 Clone the repository:
-
 ```
 git clone https://github.com/YGG-dr/nip.git
 cd nip
