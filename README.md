@@ -68,7 +68,7 @@ This separation keeps responsibilities clear:
 Clone the repository:
 
 ```
-git clone https://github.com/yourname/nip.git
+git clone https://github.com/YGG-dr/nip.git
 cd nip
 ```
 
