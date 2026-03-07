@@ -6,7 +6,7 @@ from app.models.chat_models import ChatOptions, Role
 class ChatService:
     def __init__(self) -> None:
         self.sttings = get_settings()
-        self.client: OpenAI = OpenAI()
+        self.client: OpenAI = OpenAI(api_key="YOUR_API_HERE")
         
     def ask(self, message: str, options: ChatOptions = ChatOptions.NONE) -> str:
         if options & ChatOptions.DEBUG:
