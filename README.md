@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/images/logos/logo.png" width="300">
+<img src="assets/logos/logo.png" width="600" height="500">
 </p>
 </div>
 <p align="center">
@@ -62,11 +62,11 @@ This separation keeps responsibilities clear:
 | models   | request / response schemas |
 | services | business logic             |
 | core     | configuration              |
+```
 
 ## Installation
 
 Clone the repository:
-
 ```
 git clone https://github.com/YGG-dr/nip.git
 cd nip
